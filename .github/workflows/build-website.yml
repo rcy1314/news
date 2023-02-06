@@ -3,7 +3,7 @@ name: Build website
 on:
   push:
     branches: 
-    - main
+    - master
   schedule:
     # Run every hour
     - cron: '0 */2 * * *'
