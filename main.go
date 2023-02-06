@@ -39,7 +39,6 @@ var (
 		"http://www.ypojie.com/feed",
 		"https://rsshub.uneasy.win/telegram/channel/res_share",
 		"https://rsshub.uneasy.win/telegram/channel/dedao2019",
-		"https://rsshub.uneasy.win/bilibili/partion/122",
 		"http://fetchrss.com/rss/612b7634c2c0385b1237705261893265f25af61a1259b542.xml",
 		"https://www.freeaday.com/feed",
 		"https://bbs.tampermonkey.net.cn/forum.php?mod=rss&fid=2&auth=0",
