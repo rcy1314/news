@@ -293,7 +293,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
    
 		<div id="blink">
    
-		<a href="https://morss.it/:proxy:items=%7C%7C*[class=card]%7C%7Col%7Cli/https://rcy1314.github.io/news/">rss feed for you 🔛</a>Rss聚合阅读页 🎁</div> 
+		<a href="https://morss.it/:proxy:items=%7C%7C*[class=card]%7C%7Col%7Cli/https://rcy1314.github.io/news/">📢：rss feed for you 🔛</a>Rss聚合阅读页 🎁</div> 
    
    
 		<script language="javascript"> 
@@ -354,7 +354,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
    
 		<div class="card card-site-info ">
 		<div class="m-3">
-		   <div class="small line-height-2"><b>公告 📢： <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li><?php /*echo $conf['announcement'];*/?>  增加reddit、producthunt等外网源，阅读请使用右键打开新链接，如需添加其它feed请点击页面最下方。</div>
+		   <div class="small line-height-2"><b>公告 ： <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li><?php /*echo $conf['announcement'];*/?>  增加reddit、producthunt等外网源，阅读请使用右键打开新链接，如需添加其它feed请点击页面最下方。</div>
 		</div>
 		 </div>
    
