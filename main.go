@@ -353,7 +353,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
    
 		<div class="card card-site-info ">
 		<div class="m-3">
-		   <div class="small line-height-2"><b>公告 ： <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li><?php /*echo $conf['announcement'];*/?>  增加reddit、producthunt等外网源，阅读请使用右键打开新链接，如需添加其它feed请点击页面最下方。</div>
+		   <div class="small line-height-2"><b>公告 ： <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li><?php /*echo $conf['announcement'];*/?>  你可以点击上方rss feed for you来订阅页面，如需添加其它feed请点击页面最下方。</div>
 		</div>
 		 </div>
    
