@@ -62,7 +62,6 @@ var (
 		"https://noisevip.cn/feed",
 		"https://rssnoise.fly.dev/bilibili/user/video/24869535",
 		"https://sysin.org/feed.xml",
-
 	}
 
 	// Show up to 60 days of posts
@@ -292,7 +291,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
    
 		<div id="blink">
    
-		<a href="https://morss.it/:proxy:items=%7C%7C*[class=card]%7C%7Col%7Cli/https://rcy1314.github.io/news/">📢：rss feed for you 🔛</a>Rss聚合阅读页 🎁</div> 
+		<a href="https://morss.it/:proxy:items=%7C%7C*[class=card]%7C%7Col%7Cli/https://rcy1314.github.io/news/" target="_blank">📢：rss feed for you 🔛</a>Rss聚合阅读页 🎁</div> 
    
    
 		<script language="javascript"> 
@@ -362,19 +361,26 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<div class="card card-site-info ">
 		<div class="m-3">
 		   <div class="small line-height-2"><b>广告位 <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li>：<?php /*echo $conf['announcement'];*/?>
-		<a href="https://efficiencyfollow.notion.site">Efficiency主页</a>&nbsp;&nbsp;&nbsp; 
-		<a href="https://noisedh.cn">Noise导航站</a>&nbsp;&nbsp;&nbsp;
-		<a href="https://t.me/quanshoulu">TG发布频道</a>&nbsp;&nbsp;&nbsp;
-		<a href="https://noisework.cn">引导主页</a>&nbsp;&nbsp;&nbsp;
-		<a href="https://www.noisesite.cn">知识效率集</a>&nbsp;&nbsp;&nbsp;
-		<a href="https://rcy1314.github.io/some-stars">我的star列表</a>&nbsp;&nbsp;&nbsp;
-		<a href="https://noiseyp.top">Noise资源库</a></div>
+		<a href="https://efficiencyfollow.notion.site" target="_blank" rel="nofollow noopener">
+		<span>Efficiency主页</span></a>&nbsp;&nbsp;&nbsp; 
+		<a href="https://noisedh.cn" target="_blank" rel="nofollow noopener">
+		<span>Noise导航站</span></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://t.me/quanshoulu" target="_blank" rel="nofollow noopener">
+		<span>TG发布频道</span></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://noisework.cn" target="_blank" rel="nofollow noopener">
+		<span>引导主页</span></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://www.noisesite.cn" target="_blank" rel="nofollow noopener">
+		<span>知识效率集</span></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://rcy1314.github.io/some-stars" target="_blank" rel="nofollow noopener">
+		<span>我的star列表</span></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://noiseyp.top" target="_blank" rel="nofollow noopener">
+		<span>Noise资源库</span></a></div>
 		</div>
 			<br>
 	   
 
 		<ol>
-			{{ range .Posts }}<li><a href="{{ .Link }}">{{ .Title }}</a> ({{ .Host }})</li>
+			{{ range .Posts }}<li><a href="{{ .Link }}" target="_blank" rel="noopener">{{ .Title }}</a> ({{ .Host }})</li>
 			{{ end }}
 		</ol>
 
