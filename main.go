@@ -170,7 +170,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 <!DOCTYPE html>
 <html>
 	<head>
-	<link rel="icon" type="image/ico" href="https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/Level_Up_Your_Faith!_-_Geeks_Under_Grace.1yc7qyib5tsw.png">
+	<link rel="icon" type="image/ico" href="https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/Level_Up_Your_Faith!_-_Geeks_Under_Grace.1yc7qyib5tsw.png">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
 	<link rel="stylesheet" href="ind.css">
