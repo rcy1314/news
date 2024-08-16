@@ -34,34 +34,6 @@ var (
 	feeds = []string{
 		"https://raw.githubusercontent.com/eyelly-wu/appstore-discounts/main/rss/cn.xml",
 		"https://www.52pojie.cn/forum.php?mod=rss&fid=16",
-		"https://rss.chyroc.cn/xml/weibo/user/origin/1088413295.xml",
-		"https://jpsmile.com/feed",
-		"http://www.ypojie.com/feed",
-		"https://rssnoise.fly.dev/telegram/channel/dedao2019",
-		"http://fetchrss.com/rss/612b7634c2c0385b1237705261893265f25af61a1259b542.xml",
-		"https://www.freeaday.com/feed",
-		"https://bbs.tampermonkey.net.cn/forum.php?mod=rss&fid=2&auth=0",
-		"https://feeds.appinn.com/appinns/",
-		"http://bbs.16xx8.com/forum.php?mod=rss&fid=134&auth=0",
-		"https://www.jkmeng.cn/soft/feed",
-		"https://rssnoise.fly.dev/user/dynamic/20423027",
-		"https://rssnoise.fly.dev/bilibili/user/dynamic/20166755",
-		"https://rssnoise.fly.dev/bilibili/user/dynamic/142853317",
-		"https://rssnoise.fly.dev/bilibili/user/dynamic/315819794",
-		"https://blog.daliansky.net/atom.xml",
-		"https://rssnoise.fly.dev/weibo/user/1112829033",
-		"https://rssnoise.fly.dev/weibo/user/5811552055",
-		"https://www.jkg.tw/index.xml",
-		"https://rssnoise.fly.dev/weibo/user/5732021189",
-		"https://rssnoise.fly.dev/jike/topic/55d81b4b60b296e5679785de",
-		"https://raw.githubusercontent.com/rcy1314/Rss-Translation/main/rss/producthunt_today.xml",
-		"https://rcy1314.github.io/Rss-Translation/rss/reddit_OpenAI.xml",
-		"https://rcy1314.github.io/Rss-Translation/rss/reddit_youtubeaudiolibrary.xml",
-		"https://rcy1314.github.io/Rss-Translation/rss/reddit_software.xml",
-		"https://creatorsdaily.com/api/rss",
-		"https://noisevip.cn/feed",
-		"https://rssnoise.fly.dev/bilibili/user/video/24869535",
-		"https://sysin.org/feed.xml",
 	}
 
 	// Show up to 60 days of posts
@@ -361,7 +333,7 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		<div class="card card-site-info ">
 		<div class="m-3">
 		   <div class="small line-height-2"><b>广告位 <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li>：<?php /*echo $conf['announcement'];*/?>
-		<a href="https://efficiencyfollow.notion.site" target="_blank" rel="nofollow noopener">
+		<a href="https://0520.com.cn" target="_blank" rel="nofollow noopener">
 		<span>Efficiency主页</span></a>&nbsp;&nbsp;&nbsp; 
 		<a href="https://noisedh.cn" target="_blank" rel="nofollow noopener">
 		<span>Noise导航站</span></a>&nbsp;&nbsp;&nbsp;
