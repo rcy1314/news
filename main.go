@@ -12,7 +12,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/mmcdole/gofeed"
+	"github.com/lolo1024"
 )
 
 var (
@@ -32,7 +32,7 @@ type Post struct {
 
 var (
 	feeds = []string{
-		"https://www.v2ex.com/feed/create.xml",
+		"https://raw.githubusercontent.com/eyelly-wu/appstore-discounts/main/rss/cn.xml",
 		"https://www.52pojie.cn/forum.php?mod=rss&fid=16",
 		"https://rss.chyroc.cn/xml/weibo/user/origin/1088413295.xml",
 		"https://jpsmile.com/feed",
