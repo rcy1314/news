@@ -6,6 +6,7 @@ on:
   schedule:
     # Run every hour
     - cron: '0 */2 * * *'
+  workflow_dispatch:
 
 jobs:
 
@@ -14,15 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-
     - name: Set up Go 1.x
-      uses: actions/setup-go@v3
+      uses: actions/setup-go@vx.x
       with:
         go-version: ^1.13
       id: go
 
     - name: Check out code into the Go module directory
-      uses: actions/checkout@v3
+      uses: actions/checkout@vx.x
 
     - name: Test
       run: go test -v .
@@ -31,7 +31,7 @@ jobs:
       run: go run main.go
 
     - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@vx.x
       with:
         commit_message: Build website (automatic)
         file_pattern: docs/index.html
