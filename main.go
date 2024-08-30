@@ -32,8 +32,8 @@ type Post struct {
 
 var (
 	feeds = []string{
-		"https://raw.githubusercontent.com/eyelly-wu/appstore-discounts/main/rss/cn.xml",
-		"https://www.52pojie.cn/forum.php?mod=rss&fid=16",
+		"https://rsshub.app/telegram/channel/TestFlightCN",
+		"https://www.ahhhhfs.com/feed/",
 	}
 
 	// Show up to 60 days of posts
