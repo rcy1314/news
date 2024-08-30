@@ -335,18 +335,6 @@ func executeTemplate(writer io.Writer, templateData *TemplateData) error {
 		   <div class="small line-height-2"><b>广告位 <i class="fa fa-volume-down fa-2" aria-hidden="true"></i></b></li>：<?php /*echo $conf['announcement'];*/?>
 		<a href="https://0520.com.cn" target="_blank" rel="nofollow noopener">
 		<span>Efficiency主页</span></a>&nbsp;&nbsp;&nbsp; 
-		<a href="https://noisedh.cn" target="_blank" rel="nofollow noopener">
-		<span>Noise导航站</span></a>&nbsp;&nbsp;&nbsp;
-		<a href="https://t.me/quanshoulu" target="_blank" rel="nofollow noopener">
-		<span>TG发布频道</span></a>&nbsp;&nbsp;&nbsp;
-		<a href="https://noisework.cn" target="_blank" rel="nofollow noopener">
-		<span>引导主页</span></a>&nbsp;&nbsp;&nbsp;
-		<a href="https://www.noisesite.cn" target="_blank" rel="nofollow noopener">
-		<span>知识效率集</span></a>&nbsp;&nbsp;&nbsp;
-		<a href="https://rcy1314.github.io/some-stars" target="_blank" rel="nofollow noopener">
-		<span>我的star列表</span></a>&nbsp;&nbsp;&nbsp;
-		<a href="https://noiseyp.top" target="_blank" rel="nofollow noopener">
-		<span>Noise资源库</span></a></div>
 		</div>
 			<br>
 	   
